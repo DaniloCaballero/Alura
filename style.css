@@ -13,6 +13,16 @@ header {
   margin-top: 10px; 
 }
 
+.dibujo_alura {
+  width: auto;
+  height: auto;
+  margin: 10px;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,.1);
+  position: fixed;
+  border: none;
+  top: 1px;
+  transition: top 4s;
+}
 
 main { 
   display: flex;
@@ -31,7 +41,6 @@ section {
 
 .section1 {
   width: 67%;
-  background-color: #E5E5E5 ;
   display: flex;
   flex-direction: column;
 }
@@ -44,6 +53,9 @@ section {
   margin: auto;
   resize: none;
   font-size: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
 .contenedor-botones {
@@ -74,6 +86,7 @@ section {
   height: 35px;
   justify-content: center;
   margin: 4px;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,.1);
 }
 
 
@@ -84,6 +97,7 @@ section {
   border-radius: 20px;
   box-sizing: border-box;
   overflow: hidden;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,.1);
 }
 
 .contenedorMuñeco {
@@ -129,6 +143,7 @@ section {
   border-radius: 5px;
   border: 1px solid #0A3871;
   color: #0A3871;
+  box-shadow: 5px 5px 10px 1px rgba(0,0,0,.1);
 
 }
 
