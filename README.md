@@ -1,2 +1,2 @@
-# Alura
-Datos de Curso Alura
+# alura
+datos de Curso Alura
