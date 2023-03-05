@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica grid</title>
+    <title>Encriptador</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 
@@ -20,8 +20,8 @@
         <textarea class="area" placeholder="Ingrese el texto aqui"></textarea>
 
         <div class="contenedor-botones">
-            <input class="btn-Encriptar" type="button" value="Encriptar" onclick="" >
-            <input class="btn-DesEncriptar" type="button" value="Desencriptar">
+            <input type="button" class="btn-Encriptar"  value="Encriptar" onclick="encriptar()" >
+            <input type="button" class="btn-DesEncriptar"  value="Desencriptar">
         </div>
         
 
@@ -29,29 +29,29 @@
      </section>
 
      <section class="section2">
-        <div class="contenedorMuñeco">
+        <div class="contenedor-munieco">
             <img class="muñeco" src="/Imagenes/Muñeco_Alura.png" alt="Muñeco_Alura">
         </div>
             
         <div class="contenedor_h3">
                 <h3>Ningún mensaje fue encontrado</h3>
         </div>
-
+ 
         <div class="contenedor_Parrafo">
                 <p>Ingrese el texto que deseas Encriptar o Desencriptar</p>
         </div>
        
 
-        <div class="contenedor-resultados">
-            <h3>Mensaje encriptado</h3>
-            <p></p>
+        <div class="contenedor-resultados" id="datos">
+            <h3 class="resultado" >Mensaje encriptado</h3>
+            <p class="resultado2" id="copiado" value="arroz"> </p>
 
         </div>
 
         <div class="contenedor-copia">
             <input type="button" class="btnCopiar" value="Copiar">
         </div>
-
+ 
      </section>
 
     </main>

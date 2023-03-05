@@ -100,7 +100,7 @@ section {
   box-shadow: 5px 5px 10px 1px rgba(0,0,0,.1);
 }
 
-.contenedorMuñeco {
+.contenedor-munieco {
   display: block;
   width: 100%;
   height: 60%;
@@ -127,6 +127,8 @@ section {
   padding: 20px;
   width: 100%;
   height: 70%;
+  font-size: larger;
+
 
 }
 
